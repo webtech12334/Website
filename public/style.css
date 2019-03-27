@@ -1,0 +1,301 @@
+<!-- Use the extension xhtml because you can fix errors
+
+The encoding for HTML files is UTF-8 (Set at the bottom)
+CSS stands for Cascading Style Sheets.
+
+CSS describes how HTML elements are to be displayed on screen, paper, or
+in other media.
+Methods of implementing CSS
+    Inline - by using the style attribute in HTML elements (Apply a unique
+             style to a specific HTML element)
+    Internal - by using a <style> element in the <head> section (Defined in the
+               head section and used to decide to how html document will look)
+    External - by using an external CSS file (You can change how the entire
+               website looks with one file - This acts on all html documents -
+               Add a link to an input file to the external style sheet)
+
+-The most common method is to has the CSS seprate, in a different file
+-->
+
+<!DOCTYPE html>  <!-- This is HTML 5, and contains nested HTML elements -->
+<html>  <!-- <html lang="en-US"> This is how you would set a language  language
+            followed by dialect-->
+<head>
+  <!--<style>           -This would set the whole body to these features
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style> -->
+  <title>This is my first HTML document</title>
+  <title> I am now a Jedi master</title>
+</head>
+
+<body style="background-color:MediumSeaGreen;">>   <!-- This is the visible part of the web page -->
+  <h1>I have created a title page</h1>
+  <h2 title="Tool tip tile">Second heading</h2>
+  <h3>Third heading<h3>
+
+  <p>My first paragraph </p>
+  <p>My Second paragraph</p>
+
+  <a href="https://store.steampowered.com" target="_blank"/>This is a link to steam</a> <!-- Link example-->
+      <!-- The link destination is provided the href attribute  -->
+  <br>
+  <a href="https://store.steampowered.com" title=" Click me :) ">Link</a>
+  <br> <!--This is a line break -->
+
+  <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+      <!-- Cannot access the source files -->
+      <!-- This tag is empty so only contains attributes and doesnt have
+           a closing tag -->
+      <!-- SRC is the location (filename or web address) of the image -->
+
+
+  <hr> <!--This stands for horizontal rule and separates the html document -->
+
+  <h1 style="color:blue">This the the tile of my new section</h1>
+
+  <p>This is a paragraph with a line break<br>Seee broken line</p>
+
+   <button>click me</button>
+
+   <ul>   <!--Unordered list-->
+   <li>Apple</li>
+   <li>Pear</li>
+   <li>Orange</li>
+   </ul>
+
+   <p>Now for the ordered list</p>
+
+   <ol> <!-- Ordered list -->
+   <li>Order</li>
+   <li>Order in this court</li>
+   <li>Order I say!!!</li>
+   <li>No...</li>
+     </ol>
+
+  <hr>
+  <h1 style="font-family:courier">This is the title of my second section</h1>
+
+  <p style="color:red">I am a paragraph.</p>
+
+  <p style="color:blue">I am blue text.</p>
+
+  <p style="color:pink">I am pink text.</p>
+  <!-- Be careful of color spelling - Should be American -->
+
+  <p title="Im a toolip">This is my toolip paragraph</p>
+  <p TITLE="Im the second toolip">This is my second toolip paragraph</p>
+    <!-- html-5 does not require lowercase attributes -->
+    <!-- Always add quotes to attribute values (especially for text that has
+         spaces) -->
+    <!-- If the attribute value has double quotes within it, then use single
+         quotes -->
+  <pre style="font-size:30px;">
+  This is for new text
+  I also hold lines and spaces
+  This will make my life more convenient
+</pre>
+
+  <hr>
+  <h1 style="color:blue">Third section heading with a central position</h1>
+  <h2 style="border:2px solid Tomato;">Hello World</h2>
+
+  <pre style="font-size:30px;">
+    I have now divided the lines
+    This will also make my life easier
+    I am here today
+  </pre>
+
+  <p><b>This is my first bold text</b></p>
+  <p><i>This is my first Italic text</i></p>
+
+  <p>I have also created Superscript text<sup>HEREEE</sup></p>
+  <p>Now I have created Subscript text<sub>HEREEEEEEE</sub></p>
+
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+     <!-- This is how you use the abbreviation attribute to add a box over a
+         single word  -->
+
+  <hr>
+  <h1 style="text-aligh:right;">I have now created a fourth section for no reason</h1>
+  <p>I have now created a new paragraph</p>
+  <pre>
+    This section contains centred text
+    I have created this for practice
+    Centre text for practice
+    </pre>
+
+  <a href="https://nodejs.org/en/" target="_blank">This is a link to nodejs</a>
+
+
+</body> <!-- End of visible part of the website -->
+</html><!-- These are the closing elements -->
+
+
+<!--                          HTML Notes
+Always use lowercase tags
+html-5 does not require all tags to be closed
+
+HTML HEADING:
+<h1> defines the most important heading.
+<h6> defines the least important heading:
+Search engines use the headings to index the structure and content of your web
+pages.
+
+Specify the size of a heading with the css font-size property and style attribute
+<h1 style="font-size:60px;">Heading 1</h1>
+
+STYLE ATTRIBUTE:
+- This uses css property and css value
+- <h1 style="font-size:60px;">Heading 1</h1>
+- For example, the font-size is the property, and the 60px is the value (both
+  from css )
+
+- The font can also be changed with the style attribute
+- <h1 style="font-family:verdana;">This is a heading</h1>
+
+- The horizontal text aline can also be changed with the style attribute
+- <h1 style="text-align:right;">Centered Heading</h1>
+- <p style="text-align:center;">Centered paragraph.</p>
+
+- You can also change the background colour using the style attribute. This is
+  done at the start of the body attribute
+- <body style="background-color:powderblue;">
+
+HTML IMAGES:
+- HTML images are defined with the <img> tag.
+
+-The source file (src) contains the filename of the image source
+-alternative text (alt) to be used when image cannot be displayed/does'nt exist
+-width and height are size attributes (specified in pixels);
+
+- <p>HTML buttons are defined with the button tag:</p>
+
+All elements can have an attribute, and an attribute simply provides
+more information about an element+
+
+HTML style attribute
+
+-The style attribute is used to specify the styling of an element,
+  like color, font, size etc.
+
+  The language of the document will be displayed in the HTML tag. This is
+  important for screen_readers and search engines
+
+  Within paragraphs and headers you can add toolips which appear as you mouse
+  over the paragraph. This is done using the 'title' tag
+
+- <hr> The <hr> tag defines a thematic break in an HTML page, and is most often
+   displayed as a horizontal rule (This adds a horizontal line which shows a
+   change in the html content).
+
+- You can also add coloured boxes around specific text
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+
+HTML HEAD ELEMENT:
+The <head> element is a container for metadata. HTML metadata is data about the
+HTML document. Metadata is not displayed.
+
+The <head> element is placed between the <html> tag and the <body> tag:
+
+When writting a paragraph, remember it may be displayed different on devices
+with different screen sizes etc
+
+PRE-FORMATTED TEXT: <pre>
+-Use this to preserve line breaks and spaces
+
+FORMATTING ELEMENTS
+
+This is used to define text with special meaning (i.e. display text in a
+specific way such as bold or italic)
+
+    <b> - Bold text
+    <strong> - Important text (Has added semantic 'strong/important' meaning)
+    <i> - Italic text
+    <em> - Emphasized text (Similar to italic but more subtle)
+    <mark> - Marked text (Highlights the text yellow)
+    <small> - Small text (Reduces the text size slightly relative to neighbours)
+    <del> - Deleted text (Adds a line through the text/selected words)
+    <ins> - Inserted text (Underlines the text/words that are selected)
+    <sub> - Subscript text
+    <sup> - Superscript text
+
+Quotation and Citation elements
+- The browers will usually add quotations around text that uses <q>, but you
+  can also add these manually
+
+The HTML <blockquote> element defines a section that is quoted from another
+source
+
+You can also add one of those hovering boxes over a single word using the
+abbreviation attribute
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+</p>
+
+HTML <address> for Contact Information
+The HTML <address> element defines contact information (author/owner) of a
+document or an article (This usually presented in italics)
+
+The 'cite' abbreviation is used to display the title (This is done in italics)
+i.e. The Scream by Edvard Munch. Painted in 1893 (scream in italics)
+
+Additional CSS Features:
+- Adding borders on the text
+- Add padding to borders (white space)
+- Changing the margin size for specific or all text
+- You can use an 'id' to store styles and apply them to specific elements
+
+HTML LINKS
+
+- A link does not have to be text, it can an image or any other HTML element
+- However, all links are defined with an <a> tag, while the 'href' attribute
+  defines the destination of the link (without a forward slash in the closing
+  tag, you may request two requests to the server)
+
+- Absolute links contain 'www.' and reference a different website. However, if
+you want to create a link to the same website, use a relative link, without
+the 'www.'
+
+Link colours:
+    An unvisited link is underlined and blue
+    A visited link is underlined and purple
+    An active link is underlined and red
+
+Where are links opened ( TARGET )
+- The target attribute specifies where to open a link
+
+_blank - Opens the linked document in a new window or tab
+_self - Opens the linked document in the same window/tab as it was clicked
+        (this is default)
+_parent - Opens the linked document in the parent frame
+_top - Opens the linked document in the full body of the window (Use when locked
+       in a frame)
+
+ <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+IMAGES AS LINKS
+
+ <a href="default.asp">
+   <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0">
+ </a>
+
+- The border is set to 0 to prevent the brower adding a border around the image
+
+CAN ADD TOOL-TIPS TO LINKS (HOVERING IMAGE)
+
+SELECTING A CHAPTER
+- First create a bookmark using the 'id' attribute, then add a link to the
+  bookmark from within the same page
+
+  <h2 id="C4">Chapter 4</h2>
+  <a href="#C4">Jump to Chapter 4</a>
+
+If you want to move to another page, then add a link to the bookmark
+ <a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+You can also create links to pages in the same and different folders/ same and
+different websites
+
+
+-->
