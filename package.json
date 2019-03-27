@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Web Technologies Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ba18276/Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ba18276/Website/issues"
+  },
+  "homepage": "https://github.com/ba18276/Website#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
