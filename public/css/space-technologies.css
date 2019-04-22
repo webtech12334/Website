@@ -507,7 +507,7 @@ body {
   max-width: 7rem;
   margin-right: 2rem; }
 .page-home .hero {
-  background-image: url("../img/home/wds-home-new-2x.png");
+  background-image: url("");
   padding-bottom: 7.2rem;
   padding-top: 3.2rem; }
   @media screen and (min-width: 1201px) {
@@ -656,14 +656,14 @@ body {
     background-color: #f1f1f1;
     color: #105bd8; }
   .sidenav-mobile li > button[aria-expanded=false] {
-    background-image: url("../assets/img/plalt.png");
-    background-image: url("../assets/img/plalt.svg");
+    background-image: url("");
+    background-image: url("");
     background-repeat: no-repeat;
     background-position: right 0 center;
     background-size: 1rem; }
   .sidenav-mobile li > button[aria-expanded=true] {
-    background-image: url("../assets/img/minalt.png");
-    background-image: url("../assets/img/minalt.svg");
+    background-image: url("");
+    background-image: url("");
     background-repeat: no-repeat;
     background-position: right 0 center;
     background-size: 1rem; }
@@ -766,8 +766,8 @@ body {
     .styleguide-content header .components-library-link a {
       text-decoration: none; }
       .styleguide-content header .components-library-link a::after {
-        background: url("../assets/img/external-link.png") no-repeat 0 0;
-        background: url("../assets/img/external-link.svg") no-repeat 0 0;
+        background: url("") no-repeat 0 0;
+        background: url("") no-repeat 0 0;
         background-size: 100%;
         content: '';
         display: inline-block;
@@ -776,8 +776,8 @@ body {
         margin-left: 4px;
         width: 0.65em; }
       .styleguide-content header .components-library-link a:hover::after {
-        background-image: url("../assets/img/external-link-hover.png");
-        background-image: url("../assets/img/external-link-hover.svg"); }
+        background-image: url("");
+        background-image: url(""); }
   .styleguide-content section > .tooltip {
     margin-top: 56px; }
 
