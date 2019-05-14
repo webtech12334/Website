@@ -4,7 +4,7 @@ body, #slider, .wrap, .slide-content{
   font-family: Verdana, sans-serif;
   width: 100%;
   height: 60vh;
-  overflow-x: hidden; /* No horizontal Scroll bars */
+  overflow-x: hidden;
   line-height: 1.6em;
 }
 
@@ -17,7 +17,7 @@ body, #slider, .wrap, .slide-content{
   width: 50%;
   margin: auto;
   margin-left: 590px;
-  overflow: hidden; /* No scrolling, even if outside of header */
+  overflow: hidden;
 }
 
 .containerTwo{
@@ -25,7 +25,7 @@ body, #slider, .wrap, .slide-content{
   width: 100%;
   margin: auto;
   margin-left: 200px;
-  overflow: hidden; /* No scrolling, even if outside of header */
+  overflow: hidden;
 }
 
 .BackgroundContainer .Exoplanets .container h1{
@@ -95,6 +95,7 @@ body, #slider, .wrap, .slide-content{
   background-color: black;
   background-repeat: no-repeat;
   padding-left: 950px;
+  background-color: none;
 }
 
 .slide2{
@@ -105,7 +106,7 @@ body, #slider, .wrap, .slide-content{
   background-image: url('../images/venus.png');
 }
 
-.slide-content{ /* Dont need this its for the writting */
+.slide-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,30 +115,30 @@ body, #slider, .wrap, .slide-content{
 }
 
 .slide-content span{
-  font-size: 5rem; /* rem is a relative unit -> 5x the size of the core HTML element which by default is 16px */
+  font-size: 5rem;
   color: #fff;
 }
 
 .arrow{
-  cursor: pointer; /* When hovered over */
+  cursor: pointer;
   position: absolute;
-  top: 50%; /* Arrow starts 50% down from the top */
-  margin-top: -35px; /* Arrow will be a little too low after the sides from the border have been created -> bring it up a little bit  */
-  width: 0; /* We are only working with the border -> allows us to create arrows with css */
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
   height: 0;
   border-style: solid;
 }
 
-#arrow-left{ /* You create arrows with the border */
-  border-width: 30px 40px 30px 0; /* Top, right, bottom, left */
-  border-color: transparent #fff transparent transparent; /* Left, top and bottom become transparent, while the right remains white to form an arrow  */
-  left: 0; /* The left arrow is 0 from the left (remains on the left side)*/
+#arrow-left{
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
   margin-left: 30px;
 }
 
 #arrow-right{
   border-width: 30px 0px 30px 40px;
-  border-color: transparent transparent transparent #fff; /* White on the left */
+  border-color: transparent transparent transparent #fff;
   right: 0;
   margin-right: 30px;
 }
