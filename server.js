@@ -24,6 +24,8 @@ let http = require("http");
 let fs = require("fs").promises;
 let OK = 200, NotFound = 404, BadType = 415, Error = 500;
 let types, paths;
+var sqlite3 = require('sqlite3');
+var database = new Sqlite3.Database('database/theExpanse.db');
 
 // Start the server:
 start();

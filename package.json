@@ -22,7 +22,8 @@
     "file-system": "^2.2.2",
     "path": "^0.12.7",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.4",
+    "sqlite3": "^4.0.8"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
